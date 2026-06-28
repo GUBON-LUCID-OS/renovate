@@ -1,8 +1,10 @@
 AGENTS.
 mdCLAUDE.md
-https://github.com/GUBON-LUCID-OS/renovate/blob/2ac478d689a0ef01d0c1c23f9a15e010037b2fb5/CLAUDE.md
+https://github.com/GUBON-LUCID OS/renovate/blob/2ac478d689a0ef01d0c1c23f9a15e010037b2fb5/CLAUDE.md
+
 {
-  "extends": ["config:recommended", ":disableDependencyDashboard"]
+  "extends":
+  ["config:recommended", ":disableDependencyDashboard"]
 }{
   "dependencyDashboard": true
 }{
@@ -65,7 +67,8 @@ https://github.com/GUBON-LUCID-OS/renovate/blob/2ac478d689a0ef01d0c1c23f9a15e010
     ":maintainLockFilesWeekly" 
   ],
   "lockFileMaintenance": {
-    "commitMessageAction": "Update"
+    "commitMessageAction": 
+    "Update"
   },
   "separateMajorMinor": false
 }$ gpg --list-secret-keys --keyid-format=long
