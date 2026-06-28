@@ -1,80 +1,15 @@
 AGENTS.
 mdCLAUDE.md
-https://github.com/GUBON-LUCID OS/renovate/blob/2ac478d689a0ef01d0c1c23f9a15e010037b2fb5/CLAUDE.md
-
 {
-  "extends":
-  ["config:recommended", ":disableDependencyDashboard"]
+  "extends": ["schedule:automergeDaily", ":dependencyDashboard"]
 }{
   "dependencyDashboard": true
 }{
-  "extends": ["schedule:automergeDaily", ":dependencyDashboard"]
-}{
-  "extends": [
-    "config:recommended", 
-    "docker:pinDigests", 
-    "helpers:pinGitHubActionDigests", 
-    ":configMigration", 
-    ":pinDevDependencies", 
-    "abandonments:recommended", 
-    "security:minimumReleaseAgeNpm", 
-    ":maintainLockFilesWeekly" 
-  ]
-}{
-  "extends": [
-    "config:recommended", 
-    ":pinAllExceptPeerDependencies" 
-  ]
-}{
-  "extends": [
-    "config:recommended", 
-    ":pinOnlyDevDependencies" 
-  ]
-}{
-  "extends": [
-    ":dependencyDashboard", 
-    ":semanticPrefixFixDepsChoreOthers", 
-    ":ignoreModulesAndTests", 
-    "group:monorepos", 
-    "group:recommended", 
-    "mergeConfidence:age-confidence-badges", 
-    "replacements:all", 
-    "workarounds:all", 
-    "helpers:forgejoDigestChangelogs", 
-    "helpers:giteaDigestChangelogs", 
-    "helpers:githubDigestChangelogs", 
-    "helpers:gitlabDigestChangelogs", 
-    "helpers:goXPackagesChangelogLink", 
-    "helpers:goXPackagesNameLink", 
-    "helpers:renovateChangelog" 
-  ]
-}{
-  "extends": [
-    ":preserveSemverRanges", 
-    "group:all", 
-    "schedule:monthly", 
-    ":maintainLockFilesMonthly" 
-  ],
-  "lockFileMaintenance": {
-    "commitMessageAction": "Update"
-  },
-  "separateMajorMinor": false
-}{
-  "extends": [
-    ":preserveSemverRanges", 
-    "group:all", 
-    "schedule:weekly", 
-    ":maintainLockFilesWeekly" 
-  ],
-  "lockFileMaintenance": {
-    "commitMessageAction": 
-    "Update"
-  },
-  "separateMajorMinor": false
-}$ gpg --list-secret-keys --keyid-format=long
-/Users/hubot/.gnupg/secring.gpg
+  "extends": ["config:recommended", ":disableDependencyDashboard"]
+}
+https://github.com/GUBON-LUCID-OS/renovate/blob/2ac478d689a0ef01d0c1c23f9a15e010037b2fb5/CLAUDE.md
 ------------------------------------
-第 4096R/3AA5C34371567BD2 條 2016-03-10 [有效期限至：2017-03-10]
+第 4096R/3AA5C34371567BD2 條 2026-03-10 [有效期限至：2029-03-10]
 uid Hubot <hubot@example.com>
 單邊帶 4096R/4BB6D45482678BE3 2016-03-10
 https://replit.com/@eagle19900203/Digital-Life-Accelerator
